@@ -1,6 +1,7 @@
 # DeepCD
 Code Author: Tsun-Yi Yang
 (2017/07/20)
+
 Paper
 -
 **[ICCV17] DeepCD: Learning Deep Complementary Descriptors for Patch Representations**
