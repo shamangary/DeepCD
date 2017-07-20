@@ -9,7 +9,7 @@ Paper
 -
 **[ICCV17] DeepCD: Learning Deep Complementary Descriptors for Patch Representations**
 
-**Authors: [http://shamangary.logdown.com/](Tsun-Yi Yang), Jo-Han Hsu, [https://www.citi.sinica.edu.tw/pages/yylin/index_zh.html](Yen-Yu Lin), and [https://www.csie.ntu.edu.tw/~cyy/](Yung-Yu Chuang)**
+**Authors: [Tsun-Yi Yang](http://shamangary.logdown.com/), Jo-Han Hsu, [https://www.citi.sinica.edu.tw/pages/yylin/index_zh.html](Yen-Yu Lin), and [https://www.csie.ntu.edu.tw/~cyy/](Yung-Yu Chuang)**
 
 Code Abstract
 -
