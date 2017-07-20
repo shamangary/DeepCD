@@ -25,8 +25,11 @@ Model
 
 Data-Dependent Modulation (DDM) layer
 -
-DDM layer dynamically adapt the learning rate of the complementary stream by considering both leading and complementary distances.
-<img src="https://github.com/shamangary/DeepCD/blob/master/DDM.png" height="400"/>
+DDM layer dynamically adapt the learning rate of the complementary stream
+by considering both leading and complementary distances.
+
+<img src="https://github.com/shamangary/DeepCD/blob/master/DDM.png" height="300"/>
+
 (Coming soon...)
 
 
