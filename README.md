@@ -25,7 +25,7 @@ Model
 
 Data-Dependent Modulation (DDM) layer
 -
-DDM layer dynamically adapt the learning rate of the complementary stream by considering both leading and complementary distances. The backward gradient value is scale by a factor η (1e-3~1e-4). This step not only let us to slow down the learning of fully connected layer inside DDM layer, but also let us to approximately ignore the forward propagation of the DDM layer. The update equation is basically the the backward equation derived from multipling a parameter w from the previous layer.
+DDM layer dynamically adapt the learning rate of the complementary stream by considering both leading and complementary distances. The backward gradient value is scale by a factor η (1e-3~1e-4). This step not only let us to slow down the learning of fully connected layer inside DDM layer, but also let us to approximately ignore the forward propagation of the DDM layer and make it identity operation. The update equation is basically the the backward equation derived from multipling a parameter w from the previous layer.
 
 <img src="https://github.com/shamangary/DeepCD/blob/master/DDM.png" height="300"/><img src="https://github.com/shamangary/DeepCD/blob/master/DeepCD_triplet.png" height="300"/>
 
@@ -40,9 +40,11 @@ DDM_layer = nn.Sequential():add(DDM_ct1):add(nn.DataDependentModule(pT.DDM_LR))
 ```
 Testing stage
 -
-+ A hard threshold will be appied on the complementary descriptor before the Hamming distance calculation.
++ A **hard threshold** will be appied on the complementary descriptor before the Hamming distance calculation.
 
-+ DDM layer is not involved in the testing stage since we only need the trained model from the triplet structure.
++ **DDM layer is not involved in the testing stage** since we only need the trained model from the triplet structure.
+
++ **Product late fusion** is computed before the final ranking.
 
 Brown dataset results
 -
