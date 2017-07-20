@@ -29,7 +29,7 @@ Training with Data-Dependent Modulation (DDM) layer
 
 + It consider information of the whole batch by considering both leading and complementary distances.
 
-The backward gradient value is scale by a factor η (1e-3~1e-4). This step not only let us to slow down the learning of fully connected layer inside DDM layer, but also let us to approximately ignore the forward propagation of the DDM layer and make it identity operation. The update equation is basically the the backward equation derived from multipling a parameter w from the previous layer.
+The backward gradient value is scale by a factor η (1e-3~1e-4). This step not only let us to slow down the learning of fully connected layer inside DDM layer, but also let us to approximately ignore the effect of DDM layer on the forward propagation of the complementary stream and make it an identity operation. The update equation is basically the the backward equation derived from multipling a parameter w from the previous layer.
 
 <img src="https://github.com/shamangary/DeepCD/blob/master/DDM.png" height="300"/><img src="https://github.com/shamangary/DeepCD/blob/master/DeepCD_triplet.png" height="300"/>
 
