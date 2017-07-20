@@ -25,7 +25,7 @@ Model
 
 Training with Data-Dependent Modulation (DDM) layer
 -
-+ DDM layer dynamically adapt the learning rate of the complementary stream 
++ DDM layer dynamically adapt the learning rate of the complementary stream.
 
 + It consider information of the whole batch by considering both leading and complementary distances.
 
