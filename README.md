@@ -25,11 +25,9 @@ Model
 
 Training with Data-Dependent Modulation (DDM) layer
 -
-DDM layer dynamically adapt the learning rate of the complementary stream 
++ DDM layer dynamically adapt the learning rate of the complementary stream 
 
-
-It consider information of the whole batch by considering both leading and complementary distances.
-
++ It consider information of the whole batch by considering both leading and complementary distances.
 
 The backward gradient value is scale by a factor η (1e-3~1e-4). This step not only let us to slow down the learning of fully connected layer inside DDM layer, but also let us to approximately ignore the forward propagation of the DDM layer and make it identity operation. The update equation is basically the the backward equation derived from multipling a parameter w from the previous layer.
 
