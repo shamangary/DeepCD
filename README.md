@@ -23,6 +23,13 @@ Model
 -
 <img src="https://github.com/shamangary/DeepCD/blob/master/models_word.png" height="400"/>
 
+Data-Dependent Modulation (DDM) layer
+-
+DDM layer dynamically adapt the learning rate of the complementary stream by considering both leading and complementary distances.
+
+(Coming soon...)
+
+
 Brown dataset results
 -
 <img src="https://github.com/shamangary/DeepCD/blob/master/DeepCD_brown.png" height="400"/>
