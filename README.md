@@ -30,8 +30,15 @@ by considering both leading and complementary distances.
 
 <img src="https://github.com/shamangary/DeepCD/blob/master/DDM.png" height="300"/>
 
-(Coming soon...)
-
+```
+a_DDM = nn.Identity()
+output_layer_DDM = nn.Linear(pT.batch_size*2,pT.batch_size)
+output_layer_DDM.weight:fill(0)
+output_layer_DDM.bias:fill(1)
+b_DDM = nn.Sequential():add(nn.Reshape(pT.batch_size*2,false)):add(output_layer_DDM):add(nn.Sigmoid())
+DDM_ct1 = nn.ConcatTable():add(a_DDM:clone()):add(b_DDM:clone())
+DDM_layer = nn.Sequential():add(DDM_ct1):add(nn.DataDependentModule(pT.DDM_LR))
+```
 
 Brown dataset results
 -
