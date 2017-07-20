@@ -19,5 +19,10 @@ DeepCD project is heavily inspired by pnnet https://github.com/vbalnt/pnnet
 
 
 
-
+Model
+-
 <img src="https://github.com/shamangary/DeepCD/blob/master/models_word.png" height="400"/>
+
+Brown dataset results
+-
+<img src="https://github.com/shamangary/DeepCD/blob/master/DeepCD_brown.png" height="400"/>
