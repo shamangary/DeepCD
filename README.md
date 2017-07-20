@@ -25,7 +25,7 @@ Model
 
 Data-Dependent Modulation (DDM) layer
 -
-DDM layer dynamically adapt the learning rate of the complementary stream by considering both leading and complementary distances. The backward gradient value is scale by a factor η (1e-3~1e-4). This step not only let us to slow down the learning of fully connected layer inside DDM layer, but also let us to approximately ignore the forward propagation of the DDM layer.
+DDM layer dynamically adapt the learning rate of the complementary stream by considering both leading and complementary distances. The backward gradient value is scale by a factor η (1e-3~1e-4). This step not only let us to slow down the learning of fully connected layer inside DDM layer, but also let us to approximately ignore the forward propagation of the DDM layer. The update equation is basically the the backward equation of multipling a factor from the previous layer.
 
 <img src="https://github.com/shamangary/DeepCD/blob/master/DDM.png" height="300"/><img src="https://github.com/shamangary/DeepCD/blob/master/DeepCD_triplet.png" height="300"/>
 
