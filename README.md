@@ -2,4 +2,4 @@
 [ICCV17] DeepCD: Learning Deep Complementary Descriptors for Patch Representations
 -
 
-<img src="https://github.com/shamangary/DeepCD/blob/master/models_word.png" width="200"/>
+<img src="https://github.com/shamangary/DeepCD/blob/master/models_word.png" height="400"/>
