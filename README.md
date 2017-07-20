@@ -38,6 +38,11 @@ b_DDM = nn.Sequential():add(nn.Reshape(pT.batch_size*2,false)):add(output_layer_
 DDM_ct1 = nn.ConcatTable():add(a_DDM:clone()):add(b_DDM:clone())
 DDM_layer = nn.Sequential():add(DDM_ct1):add(nn.DataDependentModule(pT.DDM_LR))
 ```
+Testing stage
+-
+A hard threshold will be appied on the complementary descriptor before the Hamming distance calculation.
+
+DDM layer is not involved in the testing stage since we only need the trained model from the triplet structure.
 
 Brown dataset results
 -
