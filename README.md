@@ -44,7 +44,7 @@ Testing stage
 
 + **DDM layer is not involved in the testing stage** since we only need the trained model from the triplet structure.
 
-+ **Product late fusion** is computed before the final ranking.
++ **Product late fusion at distance domain** is computed before the final ranking.
 
 Brown dataset results
 -
