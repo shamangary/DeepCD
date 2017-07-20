@@ -1,6 +1,7 @@
 # DeepCD
 Code Author: Tsun-Yi Yang
-(2017/07/20)
+Last update: 2017/07/20
+Platform: Ubuntu 14.04, Torch7
 
 Paper
 -
