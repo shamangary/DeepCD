@@ -11,4 +11,9 @@ Paper
 Code Abstract
 -
 This is the source code of DeepCD. The training is done on Brown dataset.
+DeepCD project is heavily inspired by pnnet https://github.com/vbalnt/pnnet
+
+
+
+
 <img src="https://github.com/shamangary/DeepCD/blob/master/models_word.png" height="400"/>
