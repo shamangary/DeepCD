@@ -11,7 +11,7 @@ Paper
 
 **Authors: [Tsun-Yi Yang](http://shamangary.logdown.com/), Jo-Han Hsu, [Yen-Yu Lin](https://www.citi.sinica.edu.tw/pages/yylin/index_zh.html), and [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/)**
 
-**PDF: https://drive.google.com/open?id=0B_q2Q4O-rzP6RHhRRnVSVGlKQmM
+**PDF:** https://drive.google.com/open?id=0B_q2Q4O-rzP6RHhRRnVSVGlKQmM
 
 Code abstract
 -
