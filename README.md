@@ -11,7 +11,9 @@ Paper
 
 **Authors: [Tsun-Yi Yang](http://shamangary.logdown.com/), Jo-Han Hsu, [Yen-Yu Lin](https://www.citi.sinica.edu.tw/pages/yylin/index_zh.html), and [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/)**
 
-**PDF:** https://github.com/shamangary/DeepCD/blob/master/1557.pdf
+**PDF:** 
++ Link1: http://www.csie.ntu.edu.tw/~cyy/publications/papers/Yang2017DLD.pdf
++ Link2: https://github.com/shamangary/DeepCD/blob/master/1557.pdf
 
 Code abstract
 -
