@@ -7,9 +7,8 @@ This folder presents the source codes I used for DeepCD.
 DeepCD project is heavily inspired by pnnet https://github.com/vbalnt/pnnet
 
 ## Parameter concepts
-```
+
 Read note.txt
-```
 
 ## Download the UBC dataset (Brown dataset)
 
