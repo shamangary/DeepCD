@@ -13,6 +13,7 @@ DeepCD project is heavily inspired by pnnet https://github.com/vbalnt/pnnet
 ## Dependencies
 + Cuda
 + Cudnn
++ matio
 ```
 luarocks install matio
 ```
@@ -20,7 +21,7 @@ We use MATLAB to save and analysis some information (ex:DDM).
 
 ## Parameter concepts
 
-Read note.txt
++ Read note.txt
 
 ## Download the UBC dataset (Brown dataset)
 
