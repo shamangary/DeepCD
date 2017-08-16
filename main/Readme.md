@@ -11,6 +11,8 @@ DeepCD project is heavily inspired by pnnet https://github.com/vbalnt/pnnet
 + Matlab
 
 ## Dependencies
++ Cuda
++ Cudnn
 ```
 luarocks install matio
 ```
