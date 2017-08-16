@@ -1,7 +1,7 @@
 # DeepCD
 Code Author: Tsun-Yi Yang
 
-Last update: 2017/07/23 (Full training and testing will be released soon...)
+Last update: 2017/08/16 (Partial training are upload, testing will be released soon...)
 
 Platform: Ubuntu 14.04, Torch7
 
