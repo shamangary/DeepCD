@@ -19,6 +19,10 @@ Code abstract
 -
 This is the source code of DeepCD. The training is done on Brown dataset.
 
+Two distinct descriptors are learned for the same network.
+
+Product late fusion in distance domain is performed before the final ranking.
+
 DeepCD project is heavily inspired by pnnet https://github.com/vbalnt/pnnet
 
 
