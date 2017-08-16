@@ -1,4 +1,6 @@
-Simple training command for DeepCD
+# DeepCD Source Code
+
+# 1. Simple training command for DeepCD
 ```
 sh runAllDeepCD.sh
 ```
