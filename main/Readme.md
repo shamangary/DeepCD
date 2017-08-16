@@ -6,6 +6,16 @@ This folder presents the source codes I used for DeepCD.
 
 DeepCD project is heavily inspired by pnnet https://github.com/vbalnt/pnnet
 
+## Platform
++ Torch7
++ Matlab
+
+## Dependencies
+```
+luarocks install matio
+```
+We use MATLAB to save and analysis some information (ex:DDM).
+
 ## Parameter concepts
 
 Read note.txt
