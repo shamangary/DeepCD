@@ -1,0 +1,40 @@
+Parameters Concepts:
+
+1. w_com
+
+This term balance the domain range between leading descriptor and the completing
+ descriptor.
+
+2. ws_lead = 1
+
+We want to preserve the original optimization parameters of SoftPN. (For both loss
+ function and learning rate) Therefore this term is fixed to 1.
+
+3. ws_pro
+
+This term enhances the importance of our optimization target, product score. If this
+ term is 1, then the product score will be equally important as the SoftPN loss
+ function, and the optimization of product score will fail since the loss function will
+ tend to optimize the SoftPN loss function.
+
+For example, if the leading descriptor is real-valued 128 dim descriptor, and it is way
+ stronger than the completing descriptor which is 256 bits binary descriptor. Then we
+ set ws_pro a big value (at least bigger than 1), for example ws_pro=5.
+
+
+
+------------------------------------------------------------------------------------
+1. Leading: real-valued, Completing: binary
+
+128dim1, 256bits2: w_com=1.41, ws_lead=1, ws_pro=5
+
+
+2. Leading: binary, Completing: binary
+
+512bits1, 256bits2: w_com=1.41, ws_lead=1, ws_pro=2
+
+128bits1, 64bits2: w_com=1.41, ws_lead=1, ws_pro=2
+
+64bits1, 32bits2: w_com=1.41, ws_lead=1, ws_pro=2
+
+
