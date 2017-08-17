@@ -14,8 +14,10 @@ DeepCD project is heavily inspired by pnnet https://github.com/vbalnt/pnnet
 + Cuda
 + Cudnn
 + matio
++ gnuplot
 ```
 luarocks install matio
+luarocks install gnuplot
 ```
 We use MATLAB to save and analysis some information (ex:DDM).
 
