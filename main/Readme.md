@@ -37,3 +37,8 @@ Put the unzipped t7 files under UBCdataset folder
 ```
 sh runAllDeepCD.sh
 ```
+
+## Simple evaluation command
+```
+sh evalDeepCD.sh
+```
