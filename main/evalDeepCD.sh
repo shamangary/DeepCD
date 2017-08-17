@@ -5,6 +5,7 @@
 #----------------------------------------------------------------------------------------------------------
 # "rb": real-valued for leading and binary for complementary
 # 128 256: 128 dim for leading and 256 bits for complementary
+# "liberty" "notredame": the 1st one is the training subset, the 2nd one is the evaluation subset
 # true: DDM training is true. Otherwise its false
 # The last input is the epoch number of the model.
 
