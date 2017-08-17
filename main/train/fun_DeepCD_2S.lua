@@ -1,5 +1,5 @@
 require 'nn'
-require './utils.lua'
+require '../utils.lua'
 require 'image'
 require 'optim'
 require './DistanceRatioCriterion_allW.lua'
