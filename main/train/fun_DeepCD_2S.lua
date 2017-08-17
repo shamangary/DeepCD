@@ -99,7 +99,7 @@ torch.setnumthreads(13)
 
 -- read training data, save mu and sigma & normalize
 
-traind = read_brown_data('../UBCdataset/'..pT.name)
+traind = read_brown_data('./UBCdataset/'..pT.name)
 stats = get_stats(traind)
 print(stats)
 if pT.isNorm then
