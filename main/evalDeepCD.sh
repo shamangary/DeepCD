@@ -11,7 +11,7 @@
 
 #----------------------------------------------------------------------------------------------------------
 # Evaluate DeepCD 2-stream (lead: real, complementary: binary) with DDM
-th ./eval/fun_evalDeepCD_2S.lua "rb" 128 256 "liberty" "notredame" false 1 
+th ./eval/fun_evalDeepCD_2S.lua "rb" 128 256 "liberty" "notredame" true 1 
 
 
 #----------------------------------------------------------------------------------------------------------
