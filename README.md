@@ -25,14 +25,10 @@ Product late fusion in distance domain is performed before the final ranking.
 
 DeepCD project is heavily inspired by pnnet https://github.com/vbalnt/pnnet
 
-***This respository:***
-
-***Author: Tsun-Yi Yang***
+***This respository:*** (author: Tsun-Yi Yang)
 + Brown dataset (Training and testing) https://github.com/shamangary/DeepCD/tree/master/main
 
-***Related respositories:***
-
-***Author: Jo-Han Hsu***
+***Related respositories:*** (author: Jo-Han Hsu)
 + MVS dataset (testing) https://github.com/Rohan8288/DeepCD_MVS
 + Oxford dataset (testing) https://github.com/Rohan8288/DeepCD_Oxford
 
