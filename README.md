@@ -67,6 +67,3 @@ Brown dataset results
 -
 <img src="https://github.com/shamangary/DeepCD/blob/master/DeepCD_brown.png" height="400"/>
 
-Pretrained models
--
-coming soon...
